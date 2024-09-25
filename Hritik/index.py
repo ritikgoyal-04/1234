@@ -37,7 +37,7 @@ if 'student_name' not in st.session_state:
     st.session_state.student_name = ""
 
 if 'student_id' not in st.session_state:
-    st.session_state.student_id = None
+    st.session_state.student_id = 1
 
 if 'uploaded_images' not in st.session_state:
     st.session_state.uploaded_images = None
